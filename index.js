@@ -41,6 +41,12 @@ let fruits = [
 		price: 77,
 		img: 'https://imgproxy.sbermarket.ru/imgproxy/size-500-500/aHR0cHM6Ly9zYmVybWFya2V0LnJ1L3N0YXRpY3Mvc3ByZWUvcHJvZHVjdHMvMTEzNTIxL29yaWdpbmFsLzEyMTY5OS5qcGc_MTU4NzQwMTYxNg.jpg',
 	},
+	{
+		id: 8,
+		title: 'авокадо',
+		price: 223,
+		img: 'https://media-cis-cdn.oriflame.com/contentImage?externalMediaId=e50b3658-fd74-4e19-b626-ff62d07959c4&name=avocado&inputFormat=png',
+	},
 ]
 
 const toHTML = (fruit) => {
