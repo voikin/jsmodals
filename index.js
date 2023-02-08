@@ -27,7 +27,7 @@ let fruits = [
 		id: 5,
 		title: 'драгонфрут',
 		price: 103,
-		img: 'https://img.b2b.trade/28d7f208-c180-40fd-9d95-a13150328997/-/smart_resize/500x500/-/quality/lightest/-/format/webp/',
+		img: 'https://vsegda-pomnim.com/uploads/posts/2022-04/thumbs/1651264452_39-vsegda-pomnim-com-p-zheltii-drakonii-frukt-foto-50.jpg',
 	},
 	{
 		id: 6,
@@ -43,9 +43,9 @@ let fruits = [
 	},
 	{
 		id: 8,
-		title: 'авокадо',
+		title: 'лимон',
 		price: 223,
-		img: 'https://media-cis-cdn.oriflame.com/contentImage?externalMediaId=e50b3658-fd74-4e19-b626-ff62d07959c4&name=avocado&inputFormat=png',
+		img: 'https://catherineasquithgallery.com/uploads/posts/2021-03/thumbs/1614580276_13-p-limon-na-belom-fone-21.png',
 	},
 ]
 
