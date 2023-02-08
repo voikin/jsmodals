@@ -98,6 +98,7 @@ document.addEventListener('click', (event) => {
 		$.confirm({
 			title: 'Вы уверены?',
 			content: `<p>Вы удаляете <strong>${fruit.title}</strong></p>`,
+			width: '15rem'
 		})
 			.then(() => {
 				fruits = fruits.filter((frt) => frt.id !== fruit.id)
