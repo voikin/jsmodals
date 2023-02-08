@@ -45,7 +45,7 @@ let fruits = [
 
 const toHTML = (fruit) => {
 	return `
-        <div class = "card" style="width: 18rem; height: 25rem">
+        <div class = "card" style="width: 17rem; height: 25rem">
             <img class="card-img-top" src="${fruit.img}" alt="${fruit.title}">
             <div class="card-body" style="padding-bottom: 2rem">
                 <h5 class="card-title">${fruit.title}</h5>
@@ -59,6 +59,10 @@ const toHTML = (fruit) => {
 const render = (fruits) => {
 	const cards = document.querySelector('#fruits')
 	cards.innerHTML = ''
+	if (fruits[0] === undefined) {
+		cards.innerHTML = '<h2>Пусто!</h2>'
+		return
+	}
 	fruits = fruits.map(toHTML)
 	fruits.forEach((frt) => {
 		cards.innerHTML += frt
@@ -98,7 +102,7 @@ document.addEventListener('click', (event) => {
 		$.confirm({
 			title: 'Вы уверены?',
 			content: `<p>Вы удаляете <strong>${fruit.title}</strong></p>`,
-			width: '15rem'
+			width: '15rem',
 		})
 			.then(() => {
 				fruits = fruits.filter((frt) => frt.id !== fruit.id)
